@@ -6,8 +6,8 @@ def home(request):
     return render(request, 'courses/home.html')
 
 
-def about(request):
-    return render(request,'courses/about.html')
+def contact(request):
+    return render(request,'courses/contact.html')
 
 def courses(request):
     return render(request, 'courses/courses.html')
